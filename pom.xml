@@ -10,7 +10,7 @@
     <maven.compiler.target>1.6</maven.compiler.target>
 
     <sonar.projectKey>java-example:maven</sonar.projectKey>
-    <sonar.projectKName>java-example:maven</sonar.projectName>
+    <sonar.projectName>java-example:maven</sonar.projectName>
     <sonar.sources>src/main/</sonar.sources>
     <sonar.tests>src/test/</sonar.tests>
   </properties>
