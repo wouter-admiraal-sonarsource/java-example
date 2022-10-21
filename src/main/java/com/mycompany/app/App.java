@@ -11,7 +11,9 @@ public class App
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println(new App().getMessage());
+	if (args == null || args.length == 0) {
+     System.out.println(new App().getMessage());
+	}
     }
 
     private final String getMessage() {
