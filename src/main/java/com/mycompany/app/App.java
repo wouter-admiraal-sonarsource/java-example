@@ -12,6 +12,8 @@ public class App
 
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
+        new Config().connect();
+        // up
     }
 
     private final String getMessage() {
